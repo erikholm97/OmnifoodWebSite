@@ -1,3 +1,6 @@
+/*-----------------------------------------*/
+/*Basic setup*/
+/*-----------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +16,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*-----------------------------------------*/
+/*Reusable components*/
+/*-----------------------------------------*/
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
+/*-----------------------------------------*/
+/*Header*/
+/*-----------------------------------------*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
     background-size: cover;
@@ -45,6 +55,9 @@ h1 {
     word-spacing: 4px;
 }
 
+/*-----------------------------------------*/
+/*Buttons*/
+/*-----------------------------------------*/
 .btn,
 .btn:link,
 .btn:visited { /*: psuedo classes. In this case visited links  btn_link and byn:vistid shares the same style. (Not visible if pressed*/
