@@ -34,5 +34,44 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase; /*Transforms the text to uppercase*/
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.btn,
+.btn:link,
+.btn:visited { /*: psuedo classes. In this case visited links  btn_link and byn:vistid shares the same style. (Not visible if pressed*/
+    display: inline-block; /*Inlineblock can have padding and margin.*/
+    padding: 10px 30px; /*10 pixels of padding on top and bottom, and 30px left and right*/
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s;   
+}
+
+.btn-full:link,
+.btn-full:visited{
+ background-color: #e67e22;
+ color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:link {
+    border: 1px, solid #e67e22; /*Boxmodel height and width of element is content + padding + border*/
+    color:#e67e22;
+    border: 1px solid #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+    color: #fff;
 }
