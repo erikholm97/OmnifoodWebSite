@@ -55,10 +55,42 @@ h1 {
     word-spacing: 4px;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    /*Standard way of formating navigation*/
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block; /*Makes it possible to put elements side by side.*/
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited  {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active  {
+    border-bottom: 2px solid;
+}
+
 /*-----------------------------------------*/
 /*Buttons*/
 /*-----------------------------------------*/
-.btn,
+
 .btn:link,
 .btn:visited { /*: psuedo classes. In this case visited links  btn_link and byn:vistid shares the same style. (Not visible if pressed*/
     display: inline-block; /*Inlineblock can have padding and margin.*/
@@ -66,7 +98,8 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    transition: background-color 0.2s, color 0.2s;   
+    transition: background-color 0.2s, color 0.2s;
+    color: #e67e22;  
 }
 
 .btn-full:link,
