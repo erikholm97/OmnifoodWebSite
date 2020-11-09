@@ -53,13 +53,15 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    transition: background-color 0.2s;   
+    transition: background-color 0.2s, color 0.2s;   
 }
 
 .btn-full:link,
 .btn-full:visited{
  background-color: #e67e22;
+ border: 1px solid #e67e22;
  color: #fff;
+ margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -68,7 +70,7 @@ h1 {
     color:#e67e22;
     border: 1px solid #e67e22;
 }
-
+/*Todo fix link visited for btn-ghost link and visited*/
 .btn:hover,
 .btn:active {
     border: 1px solid #e67e22;
