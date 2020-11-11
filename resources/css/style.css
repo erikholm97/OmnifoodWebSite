@@ -148,6 +148,30 @@ header {
 }
 
 /*-----------------------------------------*/
+/*Meals*/
+/*-----------------------------------------*/
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%; /*Has the exact width of its parent*/
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
+
+/*-----------------------------------------*/
 /*Buttons*/
 /*-----------------------------------------*/
 
